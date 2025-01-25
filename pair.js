@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `~_𝐇𝐀𝐒𝐈𝐍𝐃𝐔_~ [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js*`;
+            const sid = `~_𝐇𝐀𝐒𝐈𝐍𝐃𝐔 𝐌𝐃_~ [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js*`;
             const mg = `🛑*Do not share this code to anyone*🛑`;
             const dt = await HasinduPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://raw.githubusercontent.com/Hasindu-MD-Bot/Bot-/refs/heads/main/IMG-20250125-WA0043.jpg",
               },
               caption: sid,
             });
